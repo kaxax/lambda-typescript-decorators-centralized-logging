@@ -12,6 +12,8 @@ export function LogDecorator(target: any, propertyKey: string, descriptor: Prope
             return result
         } catch (error) {
             console.log(`Error returned from ${propertyKey}:`, error)
+            // Send error data to different logger services,
+            // such as Elasticsearch or New Relic
             throw error
         }
     }
