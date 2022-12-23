@@ -1,4 +1,4 @@
-import {LogDecorator} from '/opt/nodejs/library-utils'
+import {LogDecorator} from '/opt/nodejs/example-layer'
 
 export class ExampleLoggerLambda {
 
